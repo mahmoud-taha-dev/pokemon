@@ -23,7 +23,7 @@ export const Home = () => {
     setSearchParams(next, { replace: true });
   };
 
-  const views = [
+  const views: { id: View; label: string }[] = [
     { id: "pagination", label: "Pagination View" },
     { id: "loadMore", label: "Load More View" },
   ];
