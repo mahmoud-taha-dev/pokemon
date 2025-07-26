@@ -1,0 +1,1 @@
+#!/bin/sh\npnpm run check:types && pnpm run check:lint && pnpm run check:format
